@@ -22,7 +22,7 @@ chmod +x linux64_nogui.sh
 
 ### Windows 64 bit QT Wallet
 ```
-wget https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/linux64_nogui.sh
-chmod +x linux64_nogui.sh
-./linux64_nogui.sh
+wget https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/win64QT_compile.sh
+chmod +x win64QT_compile.sh
+./win64QT_compile.sh
 ```
