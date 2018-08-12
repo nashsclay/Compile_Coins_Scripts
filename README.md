@@ -1,4 +1,4 @@
-# Compile_MN_Scripts
+# Compile Coins With Depends Folder in Root of Coin
 
 ## Linux 64 bit No GUI
 ```
