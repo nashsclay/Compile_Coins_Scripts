@@ -26,3 +26,27 @@ wget https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/wi
 chmod +x win64QT_compile.sh
 ./win64QT_compile.sh
 ```
+
+
+### Linux 64 bit QT Wallet
+```
+Coming Soon
+```
+
+
+### Windows 32 bit QT Wallet
+```
+Coming Soon
+```
+
+
+### MacOSX QT Wallet
+```
+Coming Soon
+```
+
+
+### ARM Wallet (Raspberry Pi)
+```
+Coming Soon
+```
