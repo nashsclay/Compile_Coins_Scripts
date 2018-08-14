@@ -9,9 +9,18 @@ Also place root directory in this directory below.
 /usr/local/bin
 ```
 
+
 It MUST also be logged in as ROOT to avoid errors. 
+
 ```
 sudo su root
+```
+
+
+The big list of Repos, there is a more but start with these.
+
+```
+
 ```
 
 
@@ -44,6 +53,7 @@ Coming Soon
 
 
 ### MacOSX QT Wallet
+No strip needed after compile. This method makes the QT, daemon, cli, and tx files. Send to Mac then do chmod +x filename then run the file.
 ```
 Coming Soon
 ```
