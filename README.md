@@ -1,12 +1,15 @@
 # Compile Coins Scripts
 
 ## Instructions
-Place this script file in the root directory of the coin. This ONLY works for coins with the depends folder in the root directory of the coin. Also place root directory in this directory below. 
+Place this script file in the root directory of the coin. 
+This ONLY works for coins with the depends folder in the root directory of the coin. 
+Also place root directory in this directory below. 
+
 ```
 /usr/local/bin
 ```
 
-It also helps to be root. 
+It MUST also be logged in as ROOT to avoid errors. 
 ```
 sudo su root
 ```
