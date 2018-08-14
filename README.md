@@ -54,8 +54,11 @@ Coming Soon
 
 ### MacOSX QT Wallet
 No strip needed after compile. This method makes the QT, daemon, cli, and tx files. Send to Mac then do chmod +x filename then run the file.
+
 ```
-Coming Soon
+https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/MacOSX_allfiles_QT_compile.sh
+chmod +x MacOSX_allfiles_QT_compile.sh
+./MacOSX_allfiles_QT_compile.sh
 ```
 
 
