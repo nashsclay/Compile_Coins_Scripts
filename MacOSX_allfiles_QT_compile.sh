@@ -14,7 +14,7 @@ sudo make -j2 HOST=x86_64-apple-darwin11
 cd ..
 sudo ./autogen.sh
 mkdir db4
-wget 'http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz'
+wget -c 'http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz'
 tar -xzvf db-4.8.30.NC.tar.gz
 cd db-4.8.30.NC/build_unix/
 ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=/usr/local/bin/`pwd`/db4
