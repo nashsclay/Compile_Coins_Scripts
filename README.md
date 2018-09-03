@@ -61,5 +61,7 @@ chmod +x MacOSX_allfiles_QT_compile.sh
 
 ### ARM-32 Bit Wallet (Raspberry Pi)
 ```
-Coming Soon
+wget https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/ARM32_compile.sh
+chmod +x ARM32_compile.sh
+./ARM32_compile.sh
 ```
