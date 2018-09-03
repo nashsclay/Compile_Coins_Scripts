@@ -17,7 +17,7 @@ sudo su root
 ```
 
 
-The big list of Repos, there are more but start with these.
+The big list of Repos, there are more but start with these. Some lines taken from this link 
 
 ```
 sudo apt-get update
@@ -27,6 +27,13 @@ sudo apt install g++-mingw-w64-x86-64
 sudo apt install software-properties-common
 sudo apt-get update
 sudo apt-get upgrade
+```
+
+### For MacOS and ARM Builds - Need these
+Source list is from: https://github.com/bitcoin/bitcoin/blob/master/depends/README.md 
+```
+sudo apt-get install curl librsvg2-bin libtiff-tools bsdmainutils cmake imagemagick libcap-dev libz-dev libbz2-dev python-setuptools
+sudo apt-get install curl g++-aarch64-linux-gnu g++-4.8-aarch64-linux-gnu gcc-4.8-aarch64-linux-gnu binutils-aarch64-linux-gnu g++-arm-linux-gnueabihf g++-4.8-arm-linux-gnueabihf gcc-4.8-arm-linux-gnueabihf binutils-arm-linux-gnueabihf g++-4.8-multilib gcc-4.8-multilib binutils-gold bsdmainutils
 ```
 
 
