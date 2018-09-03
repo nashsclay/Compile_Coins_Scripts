@@ -84,3 +84,25 @@ wget https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/AR
 chmod +x ARM64_compile.sh
 ./ARM64_compile.sh
 ```
+
+# Old Coin Compile
+
+### Old Coin Linux 64-bit QT
+Packages to install per: https://github.com/laanwj/bitcoin-qt/blob/master/doc/readme-qt.rst
+```
+add-apt-repository ppa:bitcoin/bitcoin
+apt-get update
+apt-get install -y libdb4.8-dev libdb4.8++-dev
+apt-get install -y qt4-qmake libqt4-dev build-essential libboost-dev libboost-system-dev \
+    libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev \
+    libssl-dev
+```
+
+Then run these commands in the coins directory
+
+```
+qmake
+make
+```
+
+QT file can be found in base folder of the coin source.
