@@ -27,7 +27,7 @@ sudo apt install software-properties-common
 ```
 
 
-### Linux 64 bit No GUI and QT files (Daemon, TX, CLI, and QT)
+### Linux 64 bit No GUI Files and GUI QT files (Daemon, TX, CLI, and QT)
 ```
 wget https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/linux64_nogui.sh
 chmod +x linux64_nogui.sh
