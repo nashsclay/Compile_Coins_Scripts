@@ -59,7 +59,7 @@ chmod +x MacOSX_allfiles_QT_compile.sh
 ```
 
 
-### ARM Wallet (Raspberry Pi)
+### ARM-32 Bit Wallet (Raspberry Pi)
 ```
 Coming Soon
 ```
