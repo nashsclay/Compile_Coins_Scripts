@@ -21,7 +21,7 @@ cd `pwd`/db-4.8.30.NC/build_unix/
 sudo make install
 cd ../../
 sudo ./autogen.sh
-./configure LDFLAGS="-L`pwd`/db4/lib/" CPPFLAGS="-I`pwd`/db4/include/" --prefix=`pwd`/depends/x86_64-apple-darwin11
+./configure --prefix=`pwd`/depends/x86_64-apple-darwin11
 sudo make -j2
 sudo make deploy
 echo "No strip required for this file! DMG file is located in the same folder as this script."
