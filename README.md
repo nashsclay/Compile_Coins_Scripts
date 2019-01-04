@@ -59,7 +59,7 @@ Coming Soon
 ```
 
 
-### MacOSX QT Wallet
+### MacOSX QT Wallet (Only for High Sierra and possibly older, Mojave still is not compatible!)
 No strip needed after compile. This method makes the QT, daemon, cli, and tx files. Send to Mac then do chmod +x filename then run the file.
 
 ```
