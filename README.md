@@ -56,7 +56,9 @@ chmod +x win64QT_compile.sh
 
 ### Windows 32 bit QT Wallet
 ```
-Coming Soon
+wget https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/win32QT_compile.sh
+chmod +x win32QT_compile.sh
+./win32QT_compile.sh
 ```
 
 
