@@ -6,7 +6,7 @@ PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g')
 cd `pwd`/depends
 mkdir SDKs
 cd SDKs
-wget -c https://github.com/phracker/MacOSX-SDKs/releases/download/10.13/MacOSX10.11.sdk.tar.xz
+wget -c https://github.com/phracker/MacOSX-SDKs/releases/download/MacOSX10.11.sdk/MacOSX10.11.sdk.tar.xz
 tar -xf MacOSX10.11.sdk.tar.xz
 cd ..
 sudo make -j2 HOST=x86_64-apple-darwin14
