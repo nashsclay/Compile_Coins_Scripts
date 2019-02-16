@@ -2,7 +2,6 @@
 sudo make clean
 sudo apt-get update
 sudo apt-get -y upgrade
-PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g')
 cd `pwd`/depends
 mkdir SDKs
 cd SDKs
