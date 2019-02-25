@@ -1,6 +1,5 @@
 #!/bin/sh
 sudo make clean
-chmod 777 -R *
 sudo apt-get update
 sudo apt-get -y upgrade
 PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g')
