@@ -17,7 +17,7 @@ sudo apt-get install -y curl g++-aarch64-linux-gnu g++-4.8-aarch64-linux-gnu gcc
   binutils-aarch64-linux-gnu g++-arm-linux-gnueabihf g++-4.8-arm-linux-gnueabihf gcc-4.8-arm-linux-gnueabihf \
   binutils-arm-linux-gnueabihf g++-4.8-multilib gcc-4.8-multilib binutils-gold bsdmainutils \
   g++-aarch64-linux-gnu binutils-aarch64-linux-gnu g++-aarch64-linux-gnu
-sudo add-apt-repository ppa:bitcoin/bitcoin
+sudo add-apt-repository -y ppa:bitcoin/bitcoin
 sudo apt-get install -y libdb4.8-dev libdb4.8++-dev
 sudo apt-get install -y qt4-qmake libqt4-dev build-essential libboost-dev libboost-system-dev \
     libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev \
