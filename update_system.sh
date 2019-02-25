@@ -22,3 +22,6 @@ sudo apt-get install -y libdb4.8-dev libdb4.8++-dev
 sudo apt-get install -y qt4-qmake libqt4-dev build-essential libboost-dev libboost-system-dev \
     libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev \
     libssl-dev
+sudo apt autoremove
+sudo apt-get update
+sudo apt-get -y upgrade
