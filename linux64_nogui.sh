@@ -6,7 +6,7 @@ cd `pwd`/depends
 sudo make -j2
 cd ..
 sudo ./autogen.sh
-mkdir `pwd`/db4
+sudo mkdir `pwd`/db4
 wget -c 'http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz'
 tar -xzvf db-4.8.30.NC.tar.gz
 cd `pwd`/db-4.8.30.NC/build_unix/
