@@ -10,7 +10,7 @@ Also place root directory in this directory below.
 ```
 
 
-It MUST also be logged in as ROOT to avoid errors. 
+It MUST also be logged in as ROOT to avoid errors. (Currently updating to avoid root) If you are having errors for permissions still, that means that the github was not properly uploaded with correct executable permissions use sudo chmod 777 -R * to fix in the base coin directory.
 
 ```
 sudo su root
