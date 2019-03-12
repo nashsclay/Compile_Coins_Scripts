@@ -7,14 +7,14 @@ cd `pwd`/depends
 sudo make -j2 HOST=arm-linux-gnueabihf
 cd ..
 sudo ./autogen.sh
-mkdir `pwd`/db4
-wget -c 'http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz'
-tar -xzvf db-4.8.30.NC.tar.gz
+sudo mkdir `pwd`/db4
+sudo wget -c 'http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz'
+sudo tar -xzvf db-4.8.30.NC.tar.gz
 cd `pwd`/db-4.8.30.NC/build_unix/
-../dist/configure --enable-cxx --disable-shared --with-pic --prefix=`pwd`/db4
+sudo ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=`pwd`/db4
 sudo make install
 cd ../../
 sudo ./autogen.sh
-./configure LDFLAGS="-L`pwd`/db4/lib/" CPPFLAGS="-I`pwd`/db4/include/" --prefix=`pwd`/depends/arm-linux-gnueabihf --enable-glibc-back-compat --enable-reduce-exports LDFLAGS=-static-libstdc++
+sudo ./configure LDFLAGS="-L`pwd`/db4/lib/" CPPFLAGS="-I`pwd`/db4/include/" --prefix=`pwd`/depends/arm-linux-gnueabihf --enable-glibc-back-compat --enable-reduce-exports LDFLAGS=-static-libstdc++
 sudo make -j2
 echo "Remember to strip the daemon, cli, and tx files!"
