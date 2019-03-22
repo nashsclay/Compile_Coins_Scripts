@@ -35,9 +35,9 @@ sudo apt-get install curl g++-aarch64-linux-gnu g++-4.8-aarch64-linux-gnu gcc-4.
 
 ### Linux 64 bit (Daemon, TX, CLI, and QT)
 ```
-wget https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/linux64_nogui.sh
-chmod +x linux64_nogui.sh
-./linux64_nogui.sh
+wget https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/linux64_compile.sh
+chmod +x linux64_compile.sh
+./linux64_compile.sh
 ```
 
 
