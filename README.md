@@ -33,7 +33,7 @@ sudo apt-get install curl g++-aarch64-linux-gnu g++-4.8-aarch64-linux-gnu gcc-4.
 ```
 
 
-### Linux 64 bit No GUI Files and GUI QT files (Daemon, TX, CLI, and QT)
+### Linux 64 bit (Daemon, TX, CLI, and QT)
 ```
 wget https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/linux64_nogui.sh
 chmod +x linux64_nogui.sh
@@ -41,7 +41,7 @@ chmod +x linux64_nogui.sh
 ```
 
 
-### Windows 64 bit QT Wallet
+### Windows 64 bit (Daemon, TX, CLI, and QT)
 ```
 wget https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/win64QT_compile.sh
 chmod +x win64QT_compile.sh
@@ -49,7 +49,7 @@ chmod +x win64QT_compile.sh
 ```
 
 
-### Windows 32 bit QT Wallet
+### Windows 32 bit (Daemon, TX, CLI, and QT)
 ```
 wget https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/win32QT_compile.sh
 chmod +x win32QT_compile.sh
@@ -67,7 +67,7 @@ chmod +x MacOSX_allfiles_QT_compile.sh
 ```
 
 
-### ARM-32 / AARCH-32 Bit Wallet (Raspberry Pi)
+### ARM-32 / AARCH-32 Bit Wallet (Raspberry Pi) (Daemon, TX, CLI, and QT)
 Don't forget the dependcies!
 ```
 wget https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/ARM32_compile.sh
