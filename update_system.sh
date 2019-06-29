@@ -1,6 +1,6 @@
 sudo apt-get update
 sudo apt-get -y upgrade
-sudo apt install -y git build-essential libtool autotools-dev automake pkg-config \
+sudo apt install -y git-all build-essential libtool autotools-dev automake pkg-config \
   bsdmainutils curl git libboost-all-dev libssl-dev libboost-tools-dev libdb++-dev \
   libevent-dev libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools \
   libprotobuf-dev protobuf-compiler libevent-dev libboost-all-dev libdb++-dev libssl-dev \
