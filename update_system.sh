@@ -5,7 +5,7 @@ sudo apt install -y git-all build-essential libevent-dev libtool autotools-dev a
   libevent-dev libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools \
   libprotobuf-dev protobuf-compiler libevent-dev libboost-all-dev libdb++-dev libssl-dev \
   libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev \
-  libboost-test-dev libboost-thread-dev lib32gcc-4.8-dev g++-arm-linux-gnueabihf gcc-aarch64-linux-gnu nsis libgmp3-dev
+  libboost-test-dev libboost-thread-dev g++-arm-linux-gnueabihf gcc-aarch64-linux-gnu nsis libgmp3-dev
 sudo apt install -y g++-mingw-w64-x86-64
 sudo apt install -y software-properties-common
 sudo apt install -y g++-mingw-w64-i686 mingw-w64-i686-dev
