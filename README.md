@@ -83,6 +83,9 @@ chmod +x ARM64_compile.sh
 ./ARM64_compile.sh
 ```
 
+### Berkeley DB 4.8.30.nc fix
+Change lines 147 and 179 from __atomic_compare_exchange to __atomic_compare_exchange_db
+
 # Old Coin Compile
 
 ### Old Coin Linux 64-bit QT
@@ -104,6 +107,3 @@ make
 ```
 
 QT file can be found in base folder of the coin source.
-
-### Berkeley DB 4.8.30.nc fix
-Change lines 147 and 179 from __atomic_compare_exchange to __atomic_compare_exchange_db
