@@ -104,3 +104,6 @@ make
 ```
 
 QT file can be found in base folder of the coin source.
+
+### Berkeley DB 4.8.30.nc fix
+Change lines 147 and 179 from __atomic_compare_exchange to __atomic_compare_exchange_db
