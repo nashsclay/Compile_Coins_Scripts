@@ -11,6 +11,7 @@ sudo wget -c 'http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz'
 sudo tar -xzvf db-4.8.30.NC.tar.gz
 cd `pwd`/db-4.8.30.NC/build_unix/
 sudo wget https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/berkeley-db-4.8.30.nc.patch
+sudo patch ../dbinc/atomic.h > ./berkeley-db-4.8.30.nc.patch
 sudo ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=`pwd`/db4
 sudo make install
 cd ../../
