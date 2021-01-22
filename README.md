@@ -26,7 +26,8 @@ sudo ./update_system.sh
 ```
 
 ### For MacOS and ARM Builds - Need these
-Source list is from: https://github.com/bitcoin/bitcoin/blob/master/depends/README.md 
+Source list is from: https://github.com/bitcoin/bitcoin/blob/master/depends/README.md
+If versions cannot be found example 4.8, replace the 4.8 with the * symbol
 ```
 sudo apt-get install curl librsvg2-bin libtiff-tools bsdmainutils cmake imagemagick libcap-dev libz-dev libbz2-dev python-setuptools
 sudo apt-get install curl g++-aarch64-linux-gnu g++-4.8-aarch64-linux-gnu gcc-4.8-aarch64-linux-gnu binutils-aarch64-linux-gnu g++-arm-linux-gnueabihf g++-4.8-arm-linux-gnueabihf gcc-4.8-arm-linux-gnueabihf binutils-arm-linux-gnueabihf g++-4.8-multilib gcc-4.8-multilib binutils-gold bsdmainutils g++-aarch64-linux-gnu binutils-aarch64-linux-gnu g++-aarch64-linux-gnu
